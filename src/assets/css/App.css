@@ -1,4 +1,67 @@
-h1 {
-  font-family: helvetica;
-  font-weight: 200;
+@import '~antd/dist/antd.css';
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root, .youtubular-container {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 75px;
+  text-align: center;
+  color: white;
+  margin: 20px 0px 100px 0px;
+}
+
+.progress-thumbnail {
+  display: inline-block;
+}
+.progress-title {
+  color: white;
+}
+
+.progress-bar-container {
+  padding: 12px;
+  width: 75%;
+  display: inline-block;
+}
+
+.youtubular-container {
+  width: 100%;
+  background: linear-gradient(#242582, #2F2FA2);
+}
+
+.download-container {
+  max-height: 328px;
+  height: 300px;
+  margin: 30px auto;
+  padding: 10px 10px;
+  overflow-y: auto;
+  width: 100%;
+  min-width: 500px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
 }
