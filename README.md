@@ -5,7 +5,7 @@ I am making this as a side project to learn a little about Electron and making c
 
 ### Download instructions
 
-* Go to the releases page located here
+* Go to the releases page located [here](https://github.com/trentinthomas/youtubular/releases)
 * Download the zip file
 * unzip the file
 * double click the .exe file named youtubular.exe
