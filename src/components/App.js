@@ -40,19 +40,6 @@ class App extends React.Component {
       <div className="youtubular-container">
         <h1 className="title">Youtubular</h1>
         <div>
-          <Row gutter={16}>
-              <Col offset={6} span={8}>
-                <Input
-                  placeholder="https://youtube.com/asdfbasdf"
-                  onChange={this.handleUrlChange}/>
-              </Col>
-              <Col span={2}>
-                <Button
-                  onClick={this.handleSubmit}>
-                  Download
-                </Button>
-              </Col>
-          </Row>
           <Row>
             <Col offset={4} span={16}>
               <div className="download-container">
@@ -64,6 +51,19 @@ class App extends React.Component {
                 }
               </div>
             </Col>
+          </Row>
+          <Row gutter={16}>
+              <Col offset={4} span={14}>
+                <Input
+                  placeholder="https://www.youtube.com/watch?v=90VwPOLVYkw"
+                  onChange={this.handleUrlChange}/>
+              </Col>
+              <Col span={4}>
+                <Button
+                  onClick={this.handleSubmit}>
+                  Download
+                </Button>
+              </Col>
           </Row>
         </div>
       </div>
